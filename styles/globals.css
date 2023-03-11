@@ -8,8 +8,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: #fff;
-  background: linear-gradient(to bottom, #BCA0A0, #242424b0, #242424);
-}
+  background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0))}
 
 a {
   color: inherit;

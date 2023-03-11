@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 const ActivityCard = ({ title, subTitle, avatar }) => {
   return (
-    <div className={styles.activityCard}>
-      <div className={styles.profileAvatarContainer}>
+    <div className={`w-full flex flex-row items-center hover:bg-[#4c426e] 'bg-[#4c426e]' : 'bg-transparent'} py-2 p-4 rounded-lg cursor-pointer mb-2`}>
+    <div className={styles.profileAvatarContainer}>
         <Image
           alt=''
           src={avatar}
